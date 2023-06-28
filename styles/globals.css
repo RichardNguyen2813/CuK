@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input, textarea{
+    @apply border-2 border-violet-700 rounded-md px-1 w-full;
+    @apply mb-4 bg-dk-gray-300;
+}
+input:focus, textarea:focus{
+    @apply border-2 border-violet-700 outline-none shadow-lg shadow-dk-gray-800;
+    @apply bg-white;
+}
+h1{
+    @apply text-white mb-2 text-xl;
+    @apply border-b-4;
+}
+label{
+    @apply text-white p-1;
+}
+.btn-primary{
+    @apply bg-violet-700 text-white rounded-md px-4 py-0.5;
+}
+.btn-primary:hover{
+    @apply bg-violet-600;
+}
