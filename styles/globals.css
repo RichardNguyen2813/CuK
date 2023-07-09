@@ -23,3 +23,23 @@ label{
 .btn-primary:hover{
     @apply bg-violet-600;
 }
+table.basic{
+    @apply w-full;
+    @apply text-white;
+}
+table.basic tr td{
+    @apply border border-dk-gray-600 p-1;
+}
+table.basic thead tr td{
+    @apply bg-violet-500;
+}
+table.basic a{
+    @apply bg-violet-700 inline-flex text-sm rounded-md py-1 px-3 gap-1 mr-1;
+}
+.uploadPhoto{
+    @apply cursor-pointer text-dk-gray-800 w-24 h-24 flex items-center justify-center;
+    @apply border-2 border-violet-700 rounded-md px-1 bg-dk-gray-300;
+}
+.uploadPhoto:hover{
+    @apply text-violet-500;
+}
