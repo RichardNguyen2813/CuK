@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-input, textarea{
+img{
+    max-height: 100%;
+}
+input, textarea, select{
     @apply border-2 border-violet-700 rounded-md px-1 w-full;
     @apply mb-4 bg-dk-gray-300;
 }
-input:focus, textarea:focus{
+input:focus, textarea:focus, select:focus{
     @apply border-2 border-violet-700 outline-none shadow-lg shadow-dk-gray-800;
     @apply bg-white;
 }
@@ -42,4 +45,17 @@ table.basic a{
 }
 .uploadPhoto:hover{
     @apply text-violet-500;
+}
+.btn-default, .btn-red{
+    @apply px-4 py-1 rounded-md;
+}
+.btn-red{
+    @apply bg-dk-gray-600 text-white px-4 py-1 border border-dk-gray-600;
+    @apply rounded-sm shadow-sm;
+}
+.btn-red:hover{
+    @apply bg-dk-gray-500 border border-dk-gray-400;
+}
+.btn-default{
+    @apply bg-white text-purple-1 px-4 py-1 rounded-lg border border-dk-gray-400 shadow-sm;
 }

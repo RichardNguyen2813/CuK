@@ -1210,6 +1210,11 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-20.3.1.tgz"
   integrity sha512-EhcH/wvidPy1WeML3TtYFGR83UzjxeWRen9V402T8aUGYsCHOmfoisV3ZSg03gAFIbLq8TnWOJ0f4cALtnSEUg==
 
+"@types/sortablejs@^1.15.1", "@types/sortablejs@1":
+  version "1.15.1"
+  resolved "https://registry.npmjs.org/@types/sortablejs/-/sortablejs-1.15.1.tgz"
+  integrity sha512-g/JwBNToh6oCTAwNS8UGVmjO7NLDKsejVhvE4x1eWiPTC3uCuNsa/TD4ssvX3du+MLiM+SHPNDuijp8y76JzLQ==
+
 "@types/webidl-conversions@*":
   version "7.0.0"
   resolved "https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
@@ -1548,6 +1553,11 @@ chokidar@^3.5.3:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+classnames@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 client-only@0.0.1:
   version "0.0.1"
@@ -3136,10 +3146,10 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@^8.0.0, postcss@^8.1.0, postcss@^8.2.14, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.24, postcss@>=8.0.9:
-  version "8.4.24"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.24.tgz"
-  integrity sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==
+postcss@^8.0.0, postcss@^8.1.0, postcss@^8.2.14, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.27, postcss@>=8.0.9:
+  version "8.4.27"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.27.tgz"
+  integrity sha512-gY/ACJtJPSmUFPDCHtX78+01fHa64FaU4zaaWfuh1MhGJISufJAH4cun6k/8fwsHYeK4UQmENQK+tRLCFJE8JQ==
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
@@ -3205,7 +3215,7 @@ random-bytes@~1.0.0:
   resolved "https://registry.npmjs.org/random-bytes/-/random-bytes-1.0.0.tgz"
   integrity sha512-iv7LhNVO047HzYR3InF6pUcUsPQiHTM1Qal51DcGSuZFBil1aBBWG5eHPNek7bvILMaYJ/8RU1e8w1AMdHmLQQ==
 
-"react-dom@^17.0.2 || ^18", react-dom@^18.2.0:
+"react-dom@^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^17.0.2 || ^18", react-dom@^18.2.0, react-dom@>=16.9.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -3218,7 +3228,27 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-"react@^17.0.2 || ^18", react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0":
+react-sortablejs@^6.1.4:
+  version "6.1.4"
+  resolved "https://registry.npmjs.org/react-sortablejs/-/react-sortablejs-6.1.4.tgz"
+  integrity sha512-fc7cBosfhnbh53Mbm6a45W+F735jwZ1UFIYSrIqcO/gRIFoDyZeMtgKlpV4DdyQfbCzdh5LoALLTDRxhMpTyXQ==
+  dependencies:
+    classnames "2.3.1"
+    tiny-invariant "1.2.0"
+
+react-spinners@^0.13.8:
+  version "0.13.8"
+  resolved "https://registry.npmjs.org/react-spinners/-/react-spinners-0.13.8.tgz"
+  integrity sha512-3e+k56lUkPj0vb5NDXPVFAOkPC//XyhKPJjvcGjyMNPWsBKpplfeyialP74G7H7+It7KzhtET+MvGqbKgAqpZA==
+
+react-sweetalert2@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/react-sweetalert2/-/react-sweetalert2-0.6.0.tgz"
+  integrity sha512-4MEWGAJamSfoj56m7MUs7IfBnev9wJYs0RayvoHvxshSQeH62iK0N/EkDiHr3VuZ3vTy34kOpzL1Yg3b3VYF8w==
+  dependencies:
+    sweetalert2 "^11.7.5"
+
+"react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18", react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16.9.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -3406,6 +3436,11 @@ socks@^2.7.1:
     ip "^2.0.0"
     smart-buffer "^4.2.0"
 
+sortablejs@^1.15.0, sortablejs@1:
+  version "1.15.0"
+  resolved "https://registry.npmjs.org/sortablejs/-/sortablejs-1.15.0.tgz"
+  integrity sha512-bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==
+
 source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
@@ -3533,6 +3568,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+sweetalert2@^11.7.5:
+  version "11.7.20"
+  resolved "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.7.20.tgz"
+  integrity sha512-GdU1TkiLpGGC0mcPV8bKmS7G0MR7caxambPkEU8zyepRSNR9EaEvIjNhX5QNkL0VFVzHbI3l12NtuEklkJ0D4Q==
+
 synckit@^0.8.5:
   version "0.8.5"
   resolved "https://registry.npmjs.org/synckit/-/synckit-0.8.5.tgz"
@@ -3541,10 +3581,10 @@ synckit@^0.8.5:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.5.0"
 
-tailwindcss@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.3.2.tgz"
-  integrity sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==
+tailwindcss@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.3.3.tgz"
+  integrity sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==
   dependencies:
     "@alloc/quick-lru" "^5.2.0"
     arg "^5.0.2"
@@ -3566,7 +3606,6 @@ tailwindcss@^3.3.2:
     postcss-load-config "^4.0.1"
     postcss-nested "^6.0.1"
     postcss-selector-parser "^6.0.11"
-    postcss-value-parser "^4.2.0"
     resolve "^1.22.2"
     sucrase "^3.32.0"
 
@@ -3593,6 +3632,11 @@ thenify-all@^1.0.0:
   integrity sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==
   dependencies:
     any-promise "^1.0.0"
+
+tiny-invariant@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.2.0.tgz"
+  integrity sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==
 
 titleize@^3.0.0:
   version "3.0.0"
